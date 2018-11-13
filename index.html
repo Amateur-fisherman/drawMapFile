@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>加载中...</title>
+    <script src="http://webapi.amap.com/maps?v=1.4.6&key=f9e2b5afa28f819cb58c7a8c9907c932&plugin=AMap.Geocoder"></script>
+    <link rel="stylesheet" type="text/css" href="css/commen.css">
+    <style type="text/css">
+        .amap{
+            width: 770px;height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading" style="display: none;">
+        <div class="content">
+            <span class="con"></span>
+            <span class="text">数据解析中...</span>
+        </div>
+    </div>
+    <input data-item="file" id="file" name="file" type="file">
+    <div id="amap" class="amap"></div>
+    <div>地图生成静态图片:</div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/prompt.js"></script>
+</body>
+</html>
